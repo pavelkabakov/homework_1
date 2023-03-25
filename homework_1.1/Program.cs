@@ -6,7 +6,31 @@ a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3
 */
 
-Console.WriteLine("Введите свое имя");
-string username = Console.ReadLine();
-Console.WriteLine("Привет, ");
-Console.WriteLine(username);
+Console.Clear();
+Console.WriteLine("Первое число");
+int number1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Второе число");
+int number2 = int.Parse(Console.ReadLine());
+
+if (number1 > number2)
+{
+    Console.Write("Число : ");
+    Console.Write(number1);
+    Console.Write(" больше чем число: ");
+    Console.Write(number2);
+}
+else if (number1 < number2)
+{
+    Console.Write("Число : ");
+    Console.Write(number2);
+    Console.Write(" больше чем число: ");
+    Console.Write(number1);
+}
+else if (number1 == number2)
+{
+    Console.Write("Числа равны");
+}
+else
+{
+    Console.Write("Какая нибудь ошибка");
+}
