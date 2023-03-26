@@ -14,7 +14,7 @@ int[] arrayNumbers = new int[numbers]; //массив
 int i = 0; // счетчик
 int maxNumber = 0; // максимальное число
 int minNumber = 0; // минимальное число
-while (i <= numbers-1)
+while (i < numbers)
 {
     Console.Write("Введите число номер "); // Вводим числа
     Console.Write(i + 1);

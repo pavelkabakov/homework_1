@@ -30,7 +30,3 @@ else if (number1 == number2)
 {
     Console.Write("Числа равны");
 }
-else
-{
-    Console.Write("Какая нибудь ошибка");
-}
